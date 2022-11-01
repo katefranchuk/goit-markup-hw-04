@@ -235,8 +235,11 @@ body {
 }
 
 .advantages__thumb {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
-  padding: 25px 100px;
   background-color: var(--filter-btn-color);
 }
 
@@ -307,9 +310,17 @@ body {
 
 .team__social-links > li:not(:last-child) { margin-right: 10px; }
 
+.team__social-item {
+  width: 44px;
+  height: 44px;
+}
+
 .team__social-link {
   display: flex;
-  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   background-color: transparent;
   border-radius: 50%;
   color: var(--fill-color);
@@ -408,9 +419,17 @@ body {
 
 .footer__social-links > li:not(:last-child) { margin-right: 10px; }
 
+.footer__social-item {
+  width: 44px;
+  height: 44px;
+}
+
 .footer__social-link {
+  width: 100%;
+  height: 100%;
   display: flex;
-  padding: 12px;
+  justify-content: center;
+  align-items: center;
   background-color: var(--footer-social-link-color);
   border-radius: 50%;
   color: var(--fill-color);
